@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  padding: 6px;
+  height: 48px;
+}
+nav a {
+  display: block;
+  width: 40px;
+  margin-left: auto;
+  text-decoration: none;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 13px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+.title {
+  color: #d93025;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Arial, sans-serif;
+  padding: 25px 45px;
+  border-bottom: lightgrey solid 1px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 3.5fr 2fr;
+  grid-template-rows: auto;
+  grid-gap: 15px;
+  width: 75%;
+  align-items: center;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 45px;
+}
+form .instruction {
+  color: #333;
+}
+form .explanation {
+  font-weight: 600;
+  color: #777;
+  transform: translate(-15px);
+}
+form label {
+  color: #222;
+}
+form input {
+  height: 30px;
+}
+form .third {
+  margin: 0;
+  color: #555;
+  font-size: 13px;
+}
+form .submit {
+  color: white;
+  background-color: #4d90fe;
+  font-weight: 500;
+  grid-column-start: 2;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  padding: 0 12px;
+  margin-top: 10px;
+}/*# sourceMappingURL=advance.css.map */

@@ -3,29 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="advance.css">
     <title>Advanced search</title>
 </head>
 <body>
     <nav>
         <a href="index.html">Search</a>
     </nav>
-    <div>Advanced research</div>
+    <div class="title">Advanced research</div>
     <form action="https://google.com/search">
-        <p>Find pages with…</p>
-        <p>To perform this operation in the search field</p>
+        <div class="instruction">Find pages with…</div>
+        <div></div>
+        <div class="explanation">To perform this operation in the search field</div>
         <label for="all-words">all these words:</label>
         <input type="text" id="all-words" name="as_q">
-        <p>Enter the important words: Tricolor burrow</p>
+        <div class="third">Enter the important words: Tricolor burrow</div>
         <label for="exact-words">this exact word or phrase:</label>
         <input type="text" id="exact-words" name="as_epq">
-        <p>Add quotation marks around the exact words: "terrier"</p>
+        <div class="third">Add quotation marks around the exact words: "terrier"</div>
         <label for="any-words">any of these words:</label>
         <input type="text" id="any-words" name="as_oq">
-        <p>Enter OR between words to include: standard OR miniature</p>
+        <div class="third">Enter OR between words to include: standard OR miniature</div>
         <label for="none-words">none of these words:</label>
         <input type="text" id="none-words" name="as_eq">
-        <p>Place a sign - (minus) in front of the words to be excluded: -Drier, - "Jack Russell"</p>
-        <input type="submit" value="Advanced search">
+        <div class="third">Place a sign - (minus) in front of the words to be excluded: -Drier, - "Jack Russell"</div>
+        <input type="submit" class="submit" value="Advanced search">
     </form>
 </body>
 </html>
