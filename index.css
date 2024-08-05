@@ -63,20 +63,16 @@ nav .nav-right a {
   width: fit-content;
 }
 
-/*span{
-    color: #4285f4;
-    font-size: 16px;
-    position: absolute;
-    left: 55.5%;
-    transform: translateY(-19px);
-    margin: auto;
-    width: fit-content;
-}*/
 form {
   width: -moz-fit-content;
   width: fit-content;
   margin: auto;
   padding: 20px;
+}
+@media only screen and (max-width:612px) {
+  form {
+    width: 100%;
+  }
 }
 form .research {
   width: 574.4px;
@@ -85,6 +81,11 @@ form .research {
   border-width: 1px;
   line-height: 52px;
   padding-left: 20px;
+}
+@media only screen and (max-width:612px) {
+  form .research {
+    width: 100%;
+  }
 }
 form .research:hover {
   box-shadow: 0 0 0.5em lightgray;
@@ -138,4 +139,9 @@ footer .foot-last a {
 }
 footer .foot-last a:hover {
   text-decoration: underline;
+}
+@media only screen and (max-width:1200px) {
+  footer .foot-last {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=index.css.map */
