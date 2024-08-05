@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+  height: 60px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+nav .nav-left {
+  margin-left: 15px;
+}
+nav .nav-left a {
+  padding: 5px;
+  margin: 0 5px;
+}
+nav .nav-right {
+  margin-right: 15px;
+}
+nav .nav-right a {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 13px;
+  padding: 5px;
+  display: inline-block;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+form {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  padding: 20px;
+}
+form .research {
+  width: 574.4px;
+  height: 46px;
+  border-radius: 40px;
+  border-width: 1px;
+  line-height: 52px;
+  padding-left: 20px;
+}
+form .research:hover {
+  box-shadow: 0 0 0.5em lightgray;
+  height: 47px;
+}
+form .research:focus {
+  box-shadow: 0 0 0.5em lightgray;
+  height: 47px;
+  outline: none;
+}
+form .submit {
+  padding-top: 18px;
+  margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+form .submit input {
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  height: 36px;
+  border: none;
+  color: #1f1f1f;
+}
+form .submit input:hover {
+  color: black;
+  box-shadow: 0 0 0.5em lightgray;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f2f2f2;
+}
+footer .country {
+  padding: 15px 30px;
+}
+footer .foot-last {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: lightgray solid 1px;
+}
+footer .foot-last a {
+  display: inline-block;
+  padding: 15px;
+}
+footer .foot-last a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=index.css.map */
