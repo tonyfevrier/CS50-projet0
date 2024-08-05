@@ -3,21 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Images</title>
 </head>
 <body>
     <nav>
-        <a href="index.html">Search</a>
+        <a href=""></a>
+        <a href="index.html" class="nav-right">Search</a>
     </nav>
+    <div class = image>
+        <img src="googlelogo_color.png" alt="google-images">
+        <span>images</span>
+    </div>
     <form action="https://google.com/search">
-        <input type="text" name="q">
-        <!--<input type="text" name="sclient" value="img" hidden>
-        <input type="text" name="sxsrf" value="ADLYWIKWy5Aqamlpg5cN6DCrz-d4TNO4bg:1722801940018" hidden>
-        <input type="text" name="biw" value="1536" hidden>
-        <input type="text" name="bih" value="420" hidden>
-        <input type="text" name="ei" value="E9-vZuf7O5GJkdUPi6LmyAU" hidden>-->
+        <input type="text" name="q" class="research"> 
         <input type="text" name="udm" value="2" hidden>
-        <input type="submit" value="Google Images">
+        <div class="submit">
+            <input type="submit" value="Google Images">
+        </div>
     </form>
+    <footer>
+        <div class="country">France</div>
+        <div class="foot-last">
+            <div class="foot-left">
+                <a href="https://about.google/">About</a>
+                <a href="https://ads.google.com/intl/fr_fr/home/">Advertising</a>
+                <a href="https://smallbusiness.withgoogle.com/intl/fr_fr">Enterprise</a>
+                <a href="https://www.google.com/search/howsearchworks/">How does Google search work</a>
+            </div>
+            <div class="foot-right">
+                <a href="https://support.google.com/legal/answer/3110420">Report inappropriate content</a>
+                <a href="https://support.google.com/websearch/answer/7585859">Consumer info</a>
+                <a href="https://policies.google.com/privacy">Confidentiality</a> 
+                <a href="https://policies.google.com/terms">Conditions</a>
+                <a href="https://www.google.com/preferences">Parameters</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

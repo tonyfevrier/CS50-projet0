@@ -41,13 +41,37 @@ nav .nav-right a {
   display: inline-block;
 }
 
-img {
-  width: 300px;
-  height: auto;
+.image {
+  position: relative;
   margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.image img {
   display: block;
+  width: 272px;
+  height: auto;
+}
+.image span {
+  position: absolute;
+  left: 79%;
+  top: 80%;
+  color: #4285f4;
+  font-size: 16px;
+  margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
+/*span{
+    color: #4285f4;
+    font-size: 16px;
+    position: absolute;
+    left: 55.5%;
+    transform: translateY(-19px);
+    margin: auto;
+    width: fit-content;
+}*/
 form {
   width: -moz-fit-content;
   width: fit-content;
