@@ -46,6 +46,7 @@ nav .nav-right a {
   margin: auto;
   width: -moz-fit-content;
   width: fit-content;
+  margin-top: 60px;
 }
 .image img {
   display: block;
